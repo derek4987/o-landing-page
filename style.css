@@ -7,7 +7,8 @@ body {
 }
 
 .header {
-    padding: 15px 200px;
+    padding: 15px 0;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -16,6 +17,12 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.right-links {
+    display: flex;
+    margin-right: 100px;
 }
 ul {
     list-style-type: none;
@@ -32,8 +39,39 @@ a {
     font-size: 18px;
 }
 
+
 .hero-main {
+    background-color: #1f2937;
     display: flex;
+    gap: 25px;
+    padding: 100px 0;
+    justify-content: center;
+}
+.hero-main .text {
+    margin-left: 100px;
+    max-width: 400px;
+    min-width: 300px;
+}
+.hero-main .text p {
+    font-size: 18px;
+    color: #e7e5eb;
+}
+.hero-main button {
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 8px;
+}
+.hero-main img {
+    margin-right: 100px;
+}
+h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
 }
 
 .footer {
